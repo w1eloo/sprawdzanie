@@ -1,0 +1,49 @@
+KROK 1: WEZWANIE NA SPRAWDZANIE
+Żeby sprawdzić gracza wpisujemy komendę /sprawdz sprawdz (nick). Następnie piszemy na chacie formułkę dając graczowi 3 min na wejście na discorda, np. kosiara zapraszam na discorda kanał Lobby Pomoc, masz 3min. Jeżeli osoba nie wejdzie na dc, banujemy ją za brak współpracy.
+KROK 2: SPRAWDZANIE HITBOXOW
+F3+B Pokazuje hitboxy postaci, które sprawdzamy na innym graczu, czy nie są większe niż normalnie.
+KROK 3: SPRAWDZANIE STATYSTYK I CONTROLSÓW
+Wchodząc w ESC Statystyki jeżeli zobaczymy opcję Enable Wurst"  banujemy. Jeżeli tego tam nie będzie, sprawdzamy zakładkę Sterowanie, zjeżdżamy powoli na sam dół i weryfikujemy czy nie ma żadnych bindów od cheatów.
+KROK 4: SPRAWDZENIE BINDÓW NA klawce
+Będąc w grze na klawiaturze ekranowej klikamy następujące klawisze (sprawdzamy najpierw w ustawieniach sterowania jaki przycisk jest przypisany pod kucanie, jeśli inny niż lewy shift to ustawiamy go jako przycisk kucania) :
+Prawy Shift (w grze)  jeśli pojawi się GUI cheata banujemy
+Prawy Shift (w menu gry)  jeśli pojawi się GUI cheata banujemy
+END (obok delete)  jeśli pojawi się GUI cheata banujemy
+X  jeśli włączy się xray podczas gdy będziemy trzymać X banujemy.
+KROK 5: SPRAWDZENIE BINDÓW w mc
+Sprawdzamy bindy wpisując je na chacie w Minecraft,
+wpisujemy następujące frazy: -gui, .gui, .bind, -bind, #bind, #baritone.
+KROK 6: SPRAWDZANIE PACZEK ZASOBÓW
+Jeżeli gracz ma w txt xraya sprawdzamy czy go używał w logach
+KROK 7: SPRAWDZANIE PLIKÓW GRY
+Wchodzimy w ustawienia -> paczki zasobów -> otwórz folder z paczkami. Otworzy nam się folder z paczkami, w ścieżce pliku mamy folder .minecraft, Minecraft lub inaczej nazwany folder. Jeśli chcemy wejść w pliki gry to tylko tym sposobem, ponieważ minecrafta można mieć w innym miejscu niż tradycyjne %appdata%.
+
+KROK 8: SPRAWDZANIE FOLDERÓW Z MODAMI
+Kiedy jesteśmy już w plikach gry to szukamy folderu mods, tam możemy szukać takich cheatów jak meteor, wurst itp. Jeśli gracz jest na wersji zmodyfikowanej (sprawdzamy to wcześniej pod F3) a folder się nie pokazuje to przechodzimy na początku do KROKU 8.
+
+KROK 9: SPRAWDZANIE UKRYTYCH FOLDERÓW
+Żeby sprawdzić ukryte foldery:
+Windows 10 → wchodzimy w miejsce, w którym mogą się one znajdować, np. folder mods w .minecraft. Wchodzimy w Widok i zaznaczamy opcję Ukryte elementy. Jeżeli gracz ukrył tym sposobem jakiekolwiek mody, to staną się one wtedy widoczne.
+ 
+KROK 10: SPRAWDZANIE ZA POMOCĄ LASTACTIVITYVIEW (OPCJONALNE)
+Na początku pobieramy program na urządzeniu sprawdzanego ze strony https://www.nirsoft.net/utils/computer_activity_view.html, po włączeniu programu szukamy injectorów (ctrl + F i injector). Injectory to cheaty znajdujące się poza plikami gry. Ten krok bierzemy pod uwagę jedynie w sytuacjach kiedy niczego nie mogliśmy znaleźć i gracz faktycznie wydawał się podejrzany, ze względu na małą popularność tego typu cheatów na wersjach 1.16.5 - 1.19.4 (wersje obsługiwane przez nasz serwer). 
+
+KROK 11: ZAKOŃCZENIE SPRAWDZANIA
+Jeśli sprawdziłeś już wszystko i nic nie wykryłeś, możesz spróbować sprawdzić jeszcze po swojemu, na koniec możesz z czystym sumieniem dać graczowi /sprawdz sprawdz  czysty (nick)
+LOGI POSZCZEGÓLNYCH KLINETÓW
+[ LunarClient ]
+Dysk lokalny (C:) → Users → $nazwa$ → .lunarclient → offline → multiver → logs
+
+[ BadlionClient ]
+%appdata% → .minecraft → logs → blclient → minecraft
+
+[ CrystalLauncher ]
+%appdata% → Crystal Launcher → Instances → .minecraft → logs
+
+[ HackShield ]
+Dysk lokalny (C:) → Pliki programów (x86) → HackShield → client → wersja → wersja → logs
+
+[TLauncher]
+%appdata% → .minecraft→ logs→ tlauncher
+
+Po ukończeniu wszystkich powyższych punktów  dla pewności zresetować Minecrafta (na tej samej wersji, zwracać na to UWAGE)
